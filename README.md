@@ -16,9 +16,7 @@ Portfolio
 
 | 商品详情 · 行业色卡/尺寸规格 |
 | :---: |
-| ![商品详情](<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/dcd45cdc-69fc-4093-93cf-764272b7b27b" /> 
-) 
-|
+| ![商品详情]<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/dcd45cdc-69fc-4093-93cf-764272b7b27b" /> |
 
 | 后台商品列表 | H5 移动商城 |
 | :---: | :---: |
