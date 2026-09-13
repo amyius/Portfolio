@@ -1,4 +1,4 @@
-<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/2cbc2eb6-e22b-430a-a935-ce8fe252e3b2" />Portfolio
+Portfolio
 **项目一：# 原材料 B2B2C 贸易平台**
 
 > **一句话介绍**：一个面向水钻（水晶钻石）及首饰配件行业的 B2B2C 垂直贸易平台——上游品牌供应商入驻开店，下游企业与采购方在线选购原材料，平台提供从商品展示、多维筛选、在线交易到结算分账的一站式数字化服务。
@@ -12,17 +12,19 @@
 | :---: | :---: |
 | ![首页]((<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/fade8db8-5c57-42fd-b6c4-f97a45061384" />
 ) 
-) | ![商品列表]() |
+) | ![商品列表](<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/d776edb3-6636-4ab9-9f2e-49cfe324682b" />
+) |
 
 | 商品详情 · 行业色卡/尺寸规格 | 行业资讯  |
 | :---: | :---: |
-| ![商品详情](![Uploading 03-material-info.jpeg…]
+| ![商品详情](<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/31e5f80e-d88a-40da-9f45-7eacafd1124b" />
+
 ) | |
 
-| 商家后台（登录） | 平台管理后台（登录） | H5 移动商城 |
+|  平台管理后台（登录） | H5 移动商城 |
 | :---: | :---: | :---: |
-| ![商家后台](![Uploading pc-backend-login.png…]
-) | ![后台商品列表](![Uploading Snipaste_2026-09-12_17-36-24.png…]) | ![移动商城](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/54ae1208-9ccc-4d6b-96c4-bd7261c48b16" />
+| ![后台商品列表](<img width="1842" height="961" alt="Snipaste_2026-09-12_17-36-24" src="https://github.com/user-attachments/assets/05dc7664-8c42-4d2c-9107-70bf8712c061" />
+) | ![移动商城](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/54ae1208-9ccc-4d6b-96c4-bd7261c48b16" />
 ) 
 
 
@@ -42,7 +44,7 @@
 
 ### 前端
 - ThinkPHP 模板引擎 + Bootstrap 风格布局 + jQuery
-- Layui（后台管理界面）· Swiper（轮播）· 中英双语切换（`zh-cn` / `en`）
+- Layui· Swiper（轮播）· 中英双语切换（`zh-cn` / `en`）
 
 ### 第三方集成
 | 能力 | 依赖 / 实现 |
@@ -59,8 +61,6 @@
 ---
 
 ## 三、系统架构
-
-![系统架构图](docs/images/architecture.png)
 
 ```mermaid
 flowchart TB
@@ -177,17 +177,9 @@ flowchart TB
 
 ---
 
-## 六、项目文档与演示视频
+## 六、项目文档
+| 数据库备份 | `project.sql` | 完整结构 + 种子数据（108 张表） |
 
-| 资产 | 位置 | 说明 |
-| --- | --- | --- |
-| 系统架构图 | `docs/images/architecture.png` | 四层架构：终端 → 业务 → 服务 → 数据 |
-| 架构图源文件 | `docs/architecture.html` | 可编辑的 HTML 源 |
-| **项目演示视频** | `docs/video/demo.mp4` | 约 2 分钟，界面动效 + 语音旁白 + 字幕 |
-| 视频合成脚本 | `docs/video/build_video.py` | 截图 + 旁白 + ffmpeg 合成（可复现） |
-| 数据库备份 | `jingcai.sql` | 完整结构 + 种子数据（108 张表） |
-
-> 演示视频为图片动效 + TTS 旁白合成，覆盖首页、商品列表、商品详情、大赛、商家端、管理端、移动端全流程。
 
 ---
 
@@ -202,7 +194,7 @@ flowchart TB
 ```bash
 # 1. 导入数据库
 mysql -uroot -p -e "CREATE DATABASE jingcai DEFAULT CHARACTER SET utf8mb4;"
-mysql -uroot -p jingcai < jingcai.sql
+mysql -uroot -p project < project.sql
 
 # 2. 配置环境变量（数据库连接、域名、支付/短信密钥等）
 #    编辑 .env，DB.HOST / DB.NAME / DB.USER / DB.PASS / DOMAIN 按实际环境填写
@@ -211,7 +203,6 @@ mysql -uroot -p jingcai < jingcai.sql
 composer install
 
 # 4. 站点根目录指向 public/
-#    Nginx:  root D:/phpstudy_pro/WWW/jingcai/public;
 ```
 
 > ⚠️ 支付、短信、OSS 等外部服务密钥以 `.env` 为准，`.env` 已加入 `.gitignore`，请勿提交到版本库。
@@ -221,7 +212,7 @@ composer install
 ## 八、目录结构
 
 ```
-jingcai/
+project/
 ├── app/                      # 多应用
 │   ├── home/                 # PC 商城（商品/购物车/订单/支付/售后/发票）
 │   ├── m/                    # H5 移动商城
@@ -239,9 +230,8 @@ jingcai/
 │   ├── wechat/               # 公众号 / 小程序 / 模板消息
 │   └── kuaidi100/            # 物流查询
 ├── public/                   # 站点根目录（入口 + 静态资源 + 上传）
-├── docs/                     # 文档（架构图 / 视频 / 截图）
 ├── runtime/                  # 运行时缓存与日志
-├── jingcai.sql               # 数据库备份
+├── project.sql               # 数据库备份
 ├── composer.json
 └── .env                      # 环境变量（不入库）
 ```
@@ -257,7 +247,7 @@ jingcai/
 系统以企业为数据隔离边界，结合员工角色和权限控制，满足不同企业、不同岗位在采购申请、订单处理和后台管理中的差异化使用需求。
 
 ## 技术栈
-
+- **前台**：vue3 + pinna + elemnt ui
 - **后端语言**：PHP 8+
 - **后端框架**：ThinkPHP 8
 - **数据访问**：ThinkPHP ORM
@@ -274,15 +264,21 @@ jingcai/
 
 | PC 商城首页(响应式) | 商品列表 · 多维筛选 |
 | :---: | :---: |
-| ![首页](docs/home.jpeg) | ![商品分类列表](docs/category.jpeg) |
+| ![首页](<img width="1752" height="6586" alt="home" src="https://github.com/user-attachments/assets/8c160b41-e2e4-4be4-b0ca-26c5ad3567d4" />
+) | ![商品分类列表](<img width="1752" height="2342" alt="category" src="https://github.com/user-attachments/assets/4159427e-9aab-448a-8e53-6414d248967c" />
+) |
 | 商品详情 · 行业色卡/尺寸规格 | 行业资讯  |
 | :---: | :---: |
-| ![商品详情](docs/shop-detail.jpeg) | |
+| ![商品详情](<img width="961" height="5897" alt="shop-detail" src="https://github.com/user-attachments/assets/1ff7e927-14ee-4c50-a70c-1645f00a92d0" />
+) | |
 
 | 后台（企业） | 后台（订单） |
 | :---: | :---: | :---: |
-| ![商家后台](docs/company.png) | ![后台商品列表](docs/order.jpeg) | 
+| ![商家后台](<img width="1879" height="1006" alt="company" src="https://github.com/user-attachments/assets/a677f1c2-c7da-4da8-a418-ff39c44042c1" />
+) | ![后台商品列表](<img width="1752" height="944" alt="order" src="https://github.com/user-attachments/assets/3bfe408c-145c-4301-b3d4-2db868e2c1a6" />
+) | 
 | :---: | :---: |
+
 ---
 
 ## 主要业务功能
