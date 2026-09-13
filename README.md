@@ -10,8 +10,8 @@ Portfolio
 
 | PC 商城首页 | 商品列表多维筛选 |
 | :---: | :---: |
-| <img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" /> 
- | <img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" /> |
+| <img width="1400" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" /> 
+ | <img width="1400" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" /> |
 
 | 商品详情 · 行业色卡/尺寸规格 |
 | :---: |
@@ -260,16 +260,13 @@ project/
 | ![首页](<img width="1752" height="6586" alt="home" src="https://github.com/user-attachments/assets/8c160b41-e2e4-4be4-b0ca-26c5ad3567d4" />
 ) | ![商品分类列表](<img width="1752" height="2342" alt="category" src="https://github.com/user-attachments/assets/4159427e-9aab-448a-8e53-6414d248967c" />
 ) |
-| 商品详情 · 行业色卡/尺寸规格 | 行业资讯  |
-| :---: | :---: |
-| ![商品详情](<img width="961" height="5897" alt="shop-detail" src="https://github.com/user-attachments/assets/1ff7e927-14ee-4c50-a70c-1645f00a92d0" />
-) | |
+| 商品详情 · 行业色卡/尺寸规格 |
+| :---: |
+| <img width="961" height="5897" alt="shop-detail" src="https://github.com/user-attachments/assets/1ff7e927-14ee-4c50-a70c-1645f00a92d0" /> | |
 
 | 后台（企业） | 后台（订单） |
 | :---: | :---: | :---: |
-| ![商家后台](<img width="1879" height="1006" alt="company" src="https://github.com/user-attachments/assets/a677f1c2-c7da-4da8-a418-ff39c44042c1" />
-) | ![后台商品列表](<img width="1752" height="944" alt="order" src="https://github.com/user-attachments/assets/3bfe408c-145c-4301-b3d4-2db868e2c1a6" />
-) | 
+| <img width="1400" height="1006" alt="company" src="https://github.com/user-attachments/assets/a677f1c2-c7da-4da8-a418-ff39c44042c1" /> | <img width="1400" height="944" alt="order" src="https://github.com/user-attachments/assets/3bfe408c-145c-4301-b3d4-2db868e2c1a6" /> | 
 | :---: | :---: |
 
 ---
