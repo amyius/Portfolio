@@ -10,9 +10,8 @@ Portfolio
 
 | PC 商城首页 | 商品列表多维筛选 |
 | :---: | :---: |
-| ![首页](<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" /> 
-) | ![商品列表](<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" /> 
-) |
+| ![首页]<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" /> 
+ | ![商品列表]<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" /> |
 
 | 商品详情 · 行业色卡/尺寸规格 |
 | :---: |
