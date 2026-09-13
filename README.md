@@ -8,17 +8,22 @@ Portfolio
 ---
 ## 一、界面截图
 
-| PC 商城首页 | 商品列表 · 多维筛选 |
+| PC 商城首页 | 商品列表多维筛选 |
 | :---: | :---: |
-|![首页](<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/fade8db8-5c57-42fd-b6c4-f97a45061384" />) |![商品列表](<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/d776edb3-6636-4ab9-9f2e-49cfe324682b" />
+| ![首页](<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" />
+) | ![商品列表](<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" />
 ) |
-| 商品详情 |
+
+| 商品详情 · 行业色卡/尺寸规格 |
 | :---: |
-| ![商品详情](<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/31e5f80e-d88a-40da-9f45-7eacafd1124b" />) | 
-|  平台管理后台（登录） | H5 移动商城 |
+| ![商品详情](<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/dcd45cdc-69fc-4093-93cf-764272b7b27b" />
+) |
+
+| 后台商品列表 | H5 移动商城 |
 | :---: | :---: |
-| ![后台商品列表](<img width="1842" height="961" alt="Snipaste_2026-09-12_17-36-24" src="https://github.com/user-attachments/assets/05dc7664-8c42-4d2c-9107-70bf8712c061" />) | ![移动商城](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/54ae1208-9ccc-4d6b-96c4-bd7261c48b16" />) 
-|
+| ![商家后台](<img width="1842" height="961" alt="Snipaste_2026-09-12_17-36-24" src="https://github.com/user-attachments/assets/9f35de45-f45e-4535-be59-5fd92ea78b2e" />
+) | ![移动商城h5](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/c9dbd80a-8e59-479a-93fb-ce76dc7a26da" />
+) |
 
 ---
 
