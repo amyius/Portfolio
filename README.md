@@ -1,4 +1,4 @@
-# Portfolio
+<img width="1848" height="1028" alt="pc-backend-login" src="https://github.com/user-attachments/assets/c422322f-710b-4dc7-8a05-bb49bafd1f2f" /># Portfolio
 **项目一：# 原材料 B2B2C 贸易平台**
 
 > **一句话介绍**：一个面向水钻（水晶钻石）及首饰配件行业的 B2B2C 垂直贸易平台——上游品牌供应商入驻开店，下游企业与采购方在线选购原材料，平台提供从商品展示、多维筛选、在线交易到结算分账的一站式数字化服务。
@@ -11,15 +11,20 @@
 
 | PC 商城首页 | 商品列表 · 多维筛选 |
 | :---: | :---: |
-| ![首页](docs/images/01-home.jpeg) | ![商品列表](docs/images/02-material.jpeg) |
+| ![首页](![Uploading 01-home.jpeg…]()
+) | ![商品列表](
+) |
 
 | 商品详情 · 行业色卡/尺寸规格 | 行业资讯  |
 | :---: | :---: |
-| ![商品详情](docs/images/03-material-info.jpeg) | |
+| ![商品详情](![Uploading 03-material-info.jpeg…]
+) | |
 
 | 商家后台（登录） | 平台管理后台（登录） | H5 移动商城 |
 | :---: | :---: | :---: |
-| ![商家后台](docs/images/pc-backend-login.png) | ![后台商品列表](docs/images/Snipaste_2026-09-12_17-36-24.png) | ![移动商城](docs/images/07-mobile.png) |
+| ![商家后台](![Uploading pc-backend-login.png…]
+) | ![后台商品列表](![Uploading Snipaste_2026-09-12_17-36-24.png…]) | ![移动商城](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/54ae1208-9ccc-4d6b-96c4-bd7261c48b16" />
+) |
 
 ---
 
