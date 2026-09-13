@@ -10,20 +10,15 @@ Portfolio
 
 | PC 商城首页 | 商品列表多维筛选 |
 | :---: | :---: |
-| ![首页](<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" />
-) | ![商品列表](<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" />
-) |
+| ![首页](<img width="1752" height="6084" alt="01-home" src="https://github.com/user-attachments/assets/854f5248-7e62-48a1-9fce-407bf0b43772" />) | ![商品列表](<img width="1752" height="3724" alt="02-material" src="https://github.com/user-attachments/assets/907dc5ba-0fb6-49c6-bd33-51a7b15ba627" />) |
 
 | 商品详情 · 行业色卡/尺寸规格 |
 | :---: |
-| ![商品详情](<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/dcd45cdc-69fc-4093-93cf-764272b7b27b" />
-) |
+| ![商品详情](<img width="1752" height="4155" alt="03-material-info" src="https://github.com/user-attachments/assets/dcd45cdc-69fc-4093-93cf-764272b7b27b" />) |
 
 | 后台商品列表 | H5 移动商城 |
 | :---: | :---: |
-| ![商家后台](<img width="1842" height="961" alt="Snipaste_2026-09-12_17-36-24" src="https://github.com/user-attachments/assets/9f35de45-f45e-4535-be59-5fd92ea78b2e" />
-) | ![移动商城h5](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/c9dbd80a-8e59-479a-93fb-ce76dc7a26da" />
-) |
+| ![商家后台](<img width="1842" height="961" alt="Snipaste_2026-09-12_17-36-24" src="https://github.com/user-attachments/assets/9f35de45-f45e-4535-be59-5fd92ea78b2e" />) | ![移动商城h5](<img width="480" height="960" alt="07-mobile" src="https://github.com/user-attachments/assets/c9dbd80a-8e59-479a-93fb-ce76dc7a26da" />) |
 
 ---
 
